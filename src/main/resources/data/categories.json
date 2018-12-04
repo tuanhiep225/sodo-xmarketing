@@ -1,0 +1,86 @@
+{
+	"vi": [
+		{
+			"code": "FUND",
+			"name": "Quỹ",
+			"path": ","
+		},
+		{
+			"code": "FUND_GROUP",
+			"name": "Nhóm quỹ",
+			"parent": "FUND",
+			"isDelete": false,
+			"path": ",FUND,"
+		},
+		{
+			"code": "FUND_DEBT",
+			"isDelete": false,
+			"name": "Qũy công nợ",
+			"parent": "FUND_GROUP",
+			"path": ",FUND,FUND_GROUP,"
+		},
+		{
+			"code": "FUND_OFFICE",
+			"isDelete": false,
+			"name": "Qũy văn phòng",
+			"parent": "FUND_GROUP",
+			"path": ",FUND,FUND_GROUP,"
+		},
+		{
+			"code": "FUND_PAY",
+			"isDelete": false,
+			"name": "Quỹ tiền tệ thanh toán",
+			"parent": "FUND_GROUP",
+			"path": ",FUND,FUND_GROUP,"
+		},
+		{
+			"code": "FUND_BRANCH_SYSTEM",
+			"isDelete": false,
+			"name": "Chi nhánh quỹ",
+			"parent": "FUND",
+			"path": ",FUND,"
+		}
+	],
+	"th": [
+		{
+			"code": "FUND",
+			"name": "Quỹ / มูลนิธิ",
+			"path": ","
+		},
+		{
+			"code": "FUND_GROUP",
+			"name": "Nhóm quỹ / กลุ่มกองทุน",
+			"parent": "FUND",
+			"isDelete": false,
+			"path": ",FUND,"
+		},
+		{
+			"code": "FUND_DEBT",
+			"isDelete": false,
+			"name": "Qũy công nợ / กองทุนหนี้สิน",
+			"parent": "FUND_GROUP",
+			"path": ",FUND,FUND_GROUP,"
+		},
+		{
+			"code": "FUND_OFFICE",
+			"isDelete": false,
+			"name": "Qũy văn phòng / กองทุนของออฟฟิศ",
+			"parent": "FUND_GROUP",
+			"path": ",FUND,FUND_GROUP,"
+		},
+		{
+			"code": "FUND_PAY",
+			"isDelete": false,
+			"name": "Quỹ tiền tệ thanh toán / กองทุนเงินชำระ",
+			"parent": "FUND_GROUP",
+			"path": ",FUND,FUND_GROUP,"
+		},
+		{
+			"code": "FUND_BRANCH_SYSTEM",
+			"isDelete": false,
+			"name": "Chi nhánh quỹ / กองทุนสาขา",
+			"parent": "FUND",
+			"path": ",FUND,"
+		}
+	]
+}

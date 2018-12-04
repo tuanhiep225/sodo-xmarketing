@@ -1,0 +1,11 @@
+{
+  "depositRequest": "Nạp ví theo yêu cầu check nạp tiền",
+  "rechargeWalletByRequestCheck": "Nạp ví điện tử theo yêu cầu check thông tin nạp ví %s",
+  "rechargeWalletSubtractByRequest": "Trừ ví điện tử theo yêu cầu rút ví %s",
+  "refundCancelOrder": "Hoàn tiền hủy đơn hàng %s",
+  "withDrawalRequest": "Rút ví theo yêu cầu rút ví",
+  "withdrawWalletShipByRequest": "Trừ ví điện tử theo yêu cầu rút ví %s",
+  "rechargeFundSubtractByRequest":"Trừ quỹ theo yêu cầu rút ví {0} - {1}",
+  "rechargeWalletByRequest":"Nạp quỹ theo yêu cầu nạp ví {0} - {1}",
+  "payOrder":"Thanh toán đơn hàng %s"
+}

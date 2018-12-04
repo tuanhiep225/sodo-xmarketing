@@ -1,0 +1,226 @@
+{
+	"children": {
+		"DK_DEPOSIT": {
+			"children": {
+				"411": {
+					"code": "411",
+					"name": "411 - Vốn góp"
+				},
+				"802": {
+					"code": "802",
+					"name": "802 - Thu tiền chuyển quỹ"
+				},
+				"808": {
+					"code": "808",
+					"name": "808 - Cân đối/ điều chỉnh quỹ tăng"
+				},
+				"888": {
+					"code": "888",
+					"name": "888 - Các khoản thu khác"
+				},
+				"5111": {
+					"children": {
+						"FUND_ADD_CASH": {
+							"code": "FUND_ADD_CASH",
+							"name": "5111.4 Nạp qũy tiền mặt"
+						},
+						"FUND_ADD_CUSTOMER": {
+							"code": "FUND_ADD_CUSTOMER",
+							"name": "5111.3 Nạp Quỹ theo yêu cầu check nạp ví"
+						},
+						"FUND_ADD_TRANSFER": {
+							"code": "FUND_ADD_TRANSFER",
+							"name": "5111.2 Nạp Quỹ chuyển khoản"
+						}
+					},
+					"code": "5111",
+					"name": "5111 - Doanh Thu từ nạp ví khách hàng"
+				},
+				"5112": {
+					"children": {
+						"5112_1": {
+							"code": "5112_1",
+							"name": "5112.1 - Thu tiền khiếu nại"
+						},
+						"5112_2": {
+							"code": "5112_2",
+							"name": "5112.2 - Thu tiền hủy đơn"
+						}
+					},
+					"code": "5112",
+					"name": "5112 - Thu từ NCC"
+				}
+			},
+			"code": "DK_DEPOSIT",
+			"name": "Các khoản thu",
+			"type": "DEPOSIT"
+		},
+		"DK_WITHDRAWAL": {
+			"children": {
+				"421": {
+					"code": "421",
+					"name": "421 - Chi trả lợi nhuận cho Cổ đông"
+				},
+				"156": {
+					"children": {
+						"ALIPAY": {
+							"code": "ALIPAY",
+							"name": "156.1 - Thanh toán NCC"
+						}
+					},
+					"code": "156",
+					"name": "156 - Chi phí mua hàng"
+				},
+				"641": {
+					"children": {
+						"641_1": {
+							"code": "641_1",
+							"name": "641.1 - Chi phí Marketing"
+						},
+						"641_2": {
+							"code": "641_2",
+							"name": "641.2 - Chi phí điện thoại"
+						},
+						"641_7": {
+							"code": "641_7",
+							"name": "641.7 - Hoa hồng"
+						},
+						"641_8": {
+							"code": "641_8",
+							"name": "641.8 - Chi phí bán hàng khác"
+						}
+					},
+					"code": "641",
+					"name": "641 - Chi phí bán hàng"
+				},
+				"642": {
+					"children": {
+						"642_1": {
+							"children": {
+								"642_1_1": {
+									"code": "642_1_1",
+									"name": "642.1.1 - Lương + trợ cấp"
+								},
+								"642_1_2": {
+									"code": "642_1_2",
+									"name": "642.1.2 - Thưởng"
+								},
+								"642_1_3": {
+									"code": "642_1_3",
+									"name": "642.1.3 - Bảo hiểm XH"
+								},
+								"642_1_4": {
+									"code": "642_1_4",
+									"name": "642.1.4 - Chi phí về lương khác"
+								}
+							},
+							"code": "642_1",
+							"name": "642.1 - Lương thưởng"
+						},
+						"642_2": {
+							"children": {
+								"642_2_1": {
+									"code": "642_2_1",
+									"name": "642.2.1 - Thuê văn phòng"
+								},
+								"642_2_2": {
+									"code": "642_2_2",
+									"name": "642.2.2 - Chi phí điện nước, internet"
+								},
+								"642_2_3": {
+									"code": "642_2_3",
+									"name": "642.2.3 - Chi phí văn phòng phẩm, hành chính (nước uống...)"
+								},
+								"642_2_4": {
+									"code": "642_2_4",
+									"name": "642.2.4 - Chi phí mua tài sản cố định"
+								},
+								"642_2_5": {
+									"code": "642_2_5",
+									"name": "642.2.5 - Chi phí khác"
+								}
+							},
+							"code": "642_2",
+							"name": "642.2 - Chi phí văn phòng"
+						},
+						"642_3": {
+							"code": "642_3",
+							"name": "642.3 - Chi phí công tác"
+						},
+						"642_4": {
+							"code": "642_4",
+							"name": "642.4 - Chi phí ngoại giao"
+						},
+						"642_6": {
+							"code": "642_6",
+							"name": "642..6 - Chi phí tổ chức sự kiện"
+						},
+						"642_7": {
+							"code": "642_7",
+							"name": "642.7 - Chi phí vận hành CNTT"
+						},
+						"642_8": {
+							"code": "642_8",
+							"name": "642.8 - Chi phí quản trị doanh nghiệp khác"
+						}
+					},
+					"code": "642",
+					"name": "642 - Chi phí quản trị doanh nghiệp"
+				},
+				"901": {
+					"code": "901",
+					"name": "901 - Chi phí rủi ro"
+				},
+				"902": {
+					"children": {
+						"902_1": {
+							"code": "902_1",
+							"name": "902.1 - Chuyển quỹ nội bộ cùng tiền tệ"
+						},
+						"902_2": {
+							"code": "902_2",
+							"name": "902.2 - Chuyển quỹ khác tiền tệ"
+						},
+						"902_3": {
+							"code": "902_3",
+							"name": "902.3 - Chuyển quỹ công nợ"
+						},
+						"902_4": {
+							"code": "902_4",
+							"name": "902.4 - Phí chuyển khoản"
+						},
+						"902_5": {
+							"code": "902_5",
+							"name": "902.5 - Mua tệ"
+						}
+					},
+					"code": "902",
+					"name": "902 - Chuyển quỹ"
+				},
+				"909": {
+					"code": "909",
+					"name": "909 - Cân đối/ điều chỉnh quỹ giảm"
+				},
+				"999": {
+					"code": "999",
+					"name": "999 - Các khoản chi khác"
+				},
+				"FUND_SUBTRACT": {
+					"code": "FUND_SUBTRACT",
+					"name": "331 - Chi theo yêu cầu rút ví"
+				},
+				"331B": {
+					"code": "331B",
+					"name": "331B - Bán tệ"
+				}
+			},
+			"code": "DK_WITHDRAWAL",
+			"name": "Các khoản chi",
+			"type": "WITHDRAWAL"
+		}
+	},
+	"code": "DK_SUPER",
+	"level": "-1",
+	"name": "Định khoản quỹ",
+	"treeCode": "DK_SUPER"
+}

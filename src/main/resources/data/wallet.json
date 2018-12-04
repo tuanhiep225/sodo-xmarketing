@@ -1,0 +1,72 @@
+{
+	"children": {
+		"DK_DEPOSIT": {
+			"children": {
+				"N1": {
+					"children": {
+						"WALLET_ADD_CUSTOMER": {
+							"code": "WALLET_ADD_CUSTOMER",
+							"name": "N1.1-Nạp ví điện tử theo yêu cầu check nạp ví"
+						},
+						"WALLET_ADD_TRANSFER": {
+							"code": "WALLET_ADD_TRANSFER",
+							"name": "N1.2 - Nạp ví chuyển khoản"
+						}
+					},
+					"code": "N1",
+					"name": "N1 - Nộp tiền nạp ví"
+				},
+				"N2": {
+					"children": {
+						"ORDER_REFUND": {
+							"code": "ORDER_REFUND",
+							"name": "N2.1-Hoàn tiền đơn hàng"
+						}
+					},
+					"code": "N2",
+					"name": "N2 - Nạp ví hoàn tiền theo đơn"
+				},
+				"N99": {
+					"code": "N99",
+					"name": "N99 - Nạp ví khác"
+				}
+			},
+			"code": "DK_DEPOSIT",
+			"name": "Nạp ví",
+			"type": "DEPOSIT"
+		},
+		"DK_WITHDRAWAL": {
+			"children": {
+				"R2": {
+					"code": "R2",
+					"name": "R2 - Trừ ví do lỗi hệ thống"
+				},
+				"R3": {
+					"children": {
+						"ORDER_DEPOSIT": {
+							"code": "ORDER_PAY",
+							"name": "R3.1 - Thanh toán đơn hàng"
+						}
+					},
+					"code": "R3",
+					"name": "R3 - Trừ ví giao dịch Đơn"
+				},
+				"R99": {
+					"code": "R99",
+					"name": "R99-Trừ ví khác"
+				},
+				"WALLET_SUBTRACT": {
+					"code": "WALLET_SUBTRACT",
+					"name": "R1 - Trừ ví theo yêu cầu rút tiền"
+				}
+			},
+			"code": "DK_WITHDRAWAL",
+			"name": "Trừ ví",
+			"type": "WITHDRAWAL"
+		}
+	},
+	"code": "DK_SUPER",
+	"level": "-1",
+	"name": "Định khoản ví ",
+	"treeCode": "DK_SUPER"
+}
